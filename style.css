@@ -1,0 +1,58 @@
+body {
+background-color: #0A090C;
+color: #30323D ;
+	font-family: Courier,monospace;
+	background-image: url(images/pp.jpg);
+
+}
+h1 
+{ text-justify : center ;
+		font-family: handwriting;
+		padding: 30px;
+		margin: 1px 420px;
+
+color: black;}
+h3 
+{
+color: grey;
+font-size: 30px;
+font-position: 0 auto;
+		font-family: handwriting;
+		transition: color 0.1s ease;
+		margin: 1px 420px;
+
+
+}
+i{ font-size: 30px; }
+h3:hover {color: #0B0033 ;}
+h4 
+{
+color: black;
+font-size: 26px;
+}
+a{ text-decoration: none ;
+transition: color 0.1s ease; }
+a:hover {color: #DDD8C4 ; }
+p
+{
+color: black;
+
+}
+
+div { background:white
+ border:2px solid black; 
+}
+@media (max-width: 760px){
+	.container{
+		width:600px }}
+@media (max-width: 500px){.container{width:400px }}
+.container {width: 1220px;
+margin: 10px auto}
+.card-white {
+background-color: #F0EDEE;
+padding: 20px;
+box-shadow: 0px 3px 4px rgba(0,0,0.1);
+border-radius: 4px;
+margin: 2px;
+}
+card-white:hover {color: #DDD8C4 ; }
